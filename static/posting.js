@@ -1,5 +1,4 @@
-function set_image(data){            
-    var blobData = data;
+function set_image(data){
     var url = window.URL || window.webkitURL;
     var src = url.createObjectURL(data);
     $('#ID_result').attr("src", src);
