@@ -3,13 +3,8 @@
 <head>
 	<title>POST Image</title>
 
-	<!-- Style resources -->
-	<link rel="shortcut icon" href="{{ url_for('.static', filename='icon.png') }}">
-
-	<!-- Jquery von Google, (schneller, besser) -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<!-- lokales jQuery als fallback -->
-	<script>window.jQuery || document.write('<script src="{{url_for('static', filename='jQuery.js') }}">\x3C/script>')</script>
+    <!-- jQuery -->
+    <script type="text/javascript" src="{{url_for('static', filename='jquery.js') }}"></script>
 
 	<script type="text/javascript" src="{{url_for('.static', filename='posting.js')}}"></script>
 </head>

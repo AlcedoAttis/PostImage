@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <title>Download Image</title>
+
+        <!-- jQuery -->
+        <script type="text/javascript" src="{{url_for('static', filename='jquery.js') }}"></script>
+        <script type="text/javascript" src="{{url_for('static', filename='jquery.redirect.js') }}"></script>
+
+        <script type="text/javascript" src="{{url_for('.static', filename='download.js')}}"></script>
+    </head>
+	<body>
+    	<div>
+            <input type="text" value="233" id='ID_r'>
+            <input type="text" value="1" id='ID_g'>
+            <input type="text" value="89" id='ID_b'>
+            <button type="button" id="ID_2" onclick="download_func()">POST</button>
+        </div>
+    </body>
+</html>

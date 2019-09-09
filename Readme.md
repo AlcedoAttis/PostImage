@@ -1,8 +1,9 @@
-This is a simple flask project made to explore how to host/show images which are generated using a lot of userdriven data without the need of encoding the data into an image URL.
-most critical code found on https://thisinterestsme.com/load-image-as-blob-jquery/
+This is a simple flask project made to explore how to host/show/download images which are generated using a lot of userdriven data without the need of encoding the data into an image URL.
+most critical code for Post found on [TiM](https://thisinterestsme.com/load-image-as-blob-jquery/)
+Jquery from Google, Jquery.redirect from [mgalante](https://github.com/mgalante/jquery.redirect)
 
 # Preface
-Python3 := Python3.x.x > 3.7
+Python3 := Python3.x.x >= 3.7
 pip3 := Python3 -m pip
 
 # Setup
