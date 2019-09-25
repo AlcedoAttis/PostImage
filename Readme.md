@@ -3,7 +3,7 @@ Critical code for Post found on [TiM](https://thisinterestsme.com/load-image-as-
 Jquery from Google, Jquery.redirect from [mgalante](https://github.com/mgalante/jquery.redirect)
 
 # Preface
-Python3 := Python3.x.x >= 3.7
+Python3 := Python3.x.x >= 3.7  
 pip3 := Python3 -m pip
 
 # Setup
